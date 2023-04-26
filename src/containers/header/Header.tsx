@@ -1,14 +1,4 @@
-import {
-  Container,
-  Box,
-  Typography,
-  TextField,
-  Stack,
-  Button,
-  styled,
-} from '@mui/material';
-import styles from './header.module.css';
-import Hstyles from '../../../styles/home.module.css';
+import { Container, Box, Typography, TextField, Stack } from '@mui/material';
 import { EmailSubmitBtn, MainHeading } from './headerStyles';
 import Image from 'next/image';
 import MainImage from '../../../public/assets/ai.png';
