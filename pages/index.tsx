@@ -8,7 +8,7 @@ import Copyright from '../src/Copyright';
 
 export default function Home() {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth='lg'>
       <Box
         sx={{
           my: 4,
@@ -18,10 +18,17 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
-        <Typography variant="h4" component="h1" gutterBottom>
-          Material UI - Next.js example in TypeScript
+        <Typography
+          variant='h4'
+          component='h1'
+          gutterBottom
+        >
+          Material UI - Next.js example in TypeScript make change
         </Typography>
-        <Link href="/about" color="secondary">
+        <Link
+          href='/about'
+          color='secondary'
+        >
           Go to the about page
         </Link>
         <ProTip />
