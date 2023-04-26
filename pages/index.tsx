@@ -1,39 +1,19 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Link from '../src/Link';
-import ProTip from '../src/ProTip';
-import Copyright from '../src/Copyright';
+import styles from '../styles/home.module.css';
+import Navbar from '../src/components/navbar/Navbar';
 
 export default function Home() {
   return (
-    <Container maxWidth='lg'>
-      <Box
-        sx={{
-          my: 4,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <Typography
-          variant='h4'
-          component='h1'
-          gutterBottom
-        >
-          Material - Next.js example in TypeScript make change
-        </Typography>
-        <Link
-          href='/about'
-          color='secondary'
-        >
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
-      </Box>
-    </Container>
+    <Box className={styles['gradient__bg']}>
+      <Navbar />
+      {/* <Header /> */}
+      {/* <Brand />
+    <WhatGPT3 />
+    <Features />
+    <Possibility />
+    <CTA />
+    <Blog />
+    <Footer /> */}
+    </Box>
   );
 }
