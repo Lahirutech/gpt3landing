@@ -8,6 +8,9 @@ export const MainHeading = styled(Typography)({
   '-webkit-text-fill-color': 'transparent',
   backgroundClip: 'text',
   color: 'transparent',
+  [theme.breakpoints.down('sm')]: {
+    textAlign: 'center',
+  },
 });
 export const EmailSubmitBtn = styled(Button)`
   flex: 0.6;
