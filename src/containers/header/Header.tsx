@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import styles from './header.module.css';
 import Hstyles from '../../../styles/home.module.css';
-import { MainHeading } from './headerStyles';
+import { EmailSubmitBtn, MainHeading } from './headerStyles';
 import Image from 'next/image';
 import MainImage from '../../../public/assets/ai.png';
 
@@ -71,9 +71,7 @@ function Header() {
               }}
               placeholder='Your Email'
             />
-            <Button className={`${styles.get_started_button}`}>
-              Get Started
-            </Button>
+            <EmailSubmitBtn>Get Started</EmailSubmitBtn>
           </Stack>
           <Stack
             direction='row'
