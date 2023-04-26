@@ -23,7 +23,7 @@ export default function Home() {
           component='h1'
           gutterBottom
         >
-          Material UI - Next.js example in TypeScript make change
+          Material - Next.js example in TypeScript make change
         </Typography>
         <Link
           href='/about'
