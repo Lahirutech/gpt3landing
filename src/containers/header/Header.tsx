@@ -85,13 +85,13 @@ function Header() {
           sx={{
             display: {
               xs: 'none',
-              sm: 'flex',
+              sm: 'none',
               md: 'flex',
               lg: 'flex',
               xl: 'flex',
             },
           }}
-          width={{ sm: '250px', md: '400px', lg: '467px', xl: '667px' }}
+          width={667}
           height='auto'
         >
           <Image

@@ -5,6 +5,7 @@ import Header from '../src/containers/header/Header';
 import Brand from '../src/components/brands/Brand';
 import Whatgpt3 from '../src/containers/whatGPT3/Whatgpt3';
 import Features from '../src/containers/Features/Features';
+import Possibility from '../src/containers/possibility/Posible';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Brand />
       <Whatgpt3 />
       <Features />
-      {/* <Possibility /> */}
+      <Possibility />
       {/* <CTA /> */}
       {/* <Blog /> */}
       {/* <Footer /> */}
