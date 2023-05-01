@@ -6,7 +6,7 @@ export default function CTA() {
     <Box
       display={'flex'}
       margin={'4rem 6rem'}
-      flexDirection='row'
+      flexDirection={{ xs: 'column', md: 'row' }}
       alignItems={'center'}
       justifyContent={'space-between'}
       padding='2rem'
