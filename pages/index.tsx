@@ -8,6 +8,7 @@ import Features from '../src/containers/Features/Features';
 import Possibility from '../src/containers/possibility/Posible';
 import CTA from '../src/components/cta/CTA';
 import Blog from '../src/containers/blog/Blog';
+import Footer from '../src/containers/footer/footer';
 
 export default function Home() {
   return (
@@ -17,10 +18,10 @@ export default function Home() {
       <Brand />
       <Whatgpt3 />
       <Features />
-      <Possibility />
+      {/* <Possibility /> */}
       <CTA />
       <Blog />
-      {/* <Footer /> */}
+      <Footer />
     </Box>
   );
 }

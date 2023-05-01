@@ -18,7 +18,7 @@ export default function Blog() {
 
       <Box
         display={'flex'}
-        flexDirection={{ md: 'row', sm: 'column-reverse' }}
+        flexDirection={{ xs: 'column', md: 'row', sm: 'column' }}
       >
         <Box
           flex={1}
@@ -29,16 +29,16 @@ export default function Blog() {
         >
           <Article
             imgUrl={'/assets/blog01.png'}
-            date='Sep 26, 2021'
+            date='Sep 26, 2021 top'
             text='GPT-3 and Open  AI is the future. Let us exlore how it is?'
           />
         </Box>
 
         <Box
           display={'grid'}
-          flex={1}
           gridTemplateColumns={{ md: 'repeat(2,1fr)', sm: 'repeat(1, 1fr)' }}
           gap={'1rem'}
+          flex={1}
         >
           <Article
             imgUrl={'/assets/blog01.png'}
