@@ -6,6 +6,7 @@ import Brand from '../src/components/brands/Brand';
 import Whatgpt3 from '../src/containers/whatGPT3/Whatgpt3';
 import Features from '../src/containers/Features/Features';
 import Possibility from '../src/containers/possibility/Posible';
+import CTA from '../src/components/cta/CTA';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Whatgpt3 />
       <Features />
       <Possibility />
-      {/* <CTA /> */}
+      <CTA />
       {/* <Blog /> */}
       {/* <Footer /> */}
     </Box>
