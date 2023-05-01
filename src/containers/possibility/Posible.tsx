@@ -9,7 +9,7 @@ export default function Possibility() {
   return (
     <Box
       display={'flex'}
-      flexDirection={'row'}
+      flexDirection={{ sm: 'column', md: 'row' }}
       alignItems={'center'}
       justifyContent={'center'}
       padding='4rem 6rem'
