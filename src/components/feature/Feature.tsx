@@ -16,6 +16,7 @@ export default function Feature({
       width='100%'
       margin={{ md: '1rem', sm: '1rem 0' }}
       flexDirection={direction}
+      mt={5}
     >
       <Box
         flex={1}
@@ -23,7 +24,6 @@ export default function Feature({
         mr='2rem'
       >
         <Box
-          marginBottom={'0.25rem'}
           width={'38px'}
           height='3px'
           boxShadow={'0px 4px 4px rgba(0, 0, 0, 0.25)'}
@@ -31,6 +31,7 @@ export default function Feature({
             background:
               'linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%)',
           }}
+          mb={-2}
         />
         <h3>{title}</h3>
       </Box>
